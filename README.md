@@ -7,3 +7,6 @@
     - Css
     - Streamlit
     - Openai
+
+# APIKEY OPENAI
+- Deverá ser inserido a APIKEY da openai após realizar a clonagem do projeto.
