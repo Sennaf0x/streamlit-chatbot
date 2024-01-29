@@ -10,3 +10,4 @@
 
 # APIKEY OPENAI
 - Deverá ser inserido a APIKEY da openai após realizar a clonagem do projeto.
+- Nossa APIKEY foi inserida no PATH das variáveis de ambiente conforme ensina os documentos do OpenAI https://platform.openai.com/docs/quickstart?context=python 
