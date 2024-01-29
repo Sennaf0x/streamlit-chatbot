@@ -1,0 +1,61 @@
+.e1f1d6gn2{
+   
+}
+.block-container{
+   
+}
+
+.st-ae{
+    width:100%;
+}
+
+.titulo{
+    background-color: rgba(220, 250, 24);
+    align-self: flex-end;
+    width: 100%;
+    padding: 10px;
+    margin:10px;
+    color: black;
+    border: #095742 solid;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.st-emotion-cache-zt5igj{
+    width:100%;
+}
+
+.mensagem {
+    background-color: rgba(33,37,41);
+    box-shadow: rgba(220, 250, 24, 0.5)  4px 4px;
+    color: white;
+    align-self: flex-end;
+    width: 100%;
+    padding: 30px;
+    margin:10px;
+    border-radius: 100px;
+}
+
+img{
+    align-items: center;
+    align-self: center;
+}
+
+.response {
+    background-color: rgba(220, 250, 24);
+    box-shadow: rgba(33,37,41, 0.5) -4px 4px;
+    color: black;
+    text-align: justify;
+    width: 100%;
+    padding: 40px;
+    margin:20px;
+    border-radius: 100px;
+  }
+
+  .flex{
+    display: flex;
+    width:100%;
+  }
+  .tamanho{
+    font-size: 20px;
+  }
