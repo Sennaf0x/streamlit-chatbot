@@ -1,8 +1,13 @@
-.e1f1d6gn2{
-   
+.main{
+    background-color: #095742;
 }
+
+
 .block-container{
-   
+    border: rgba(220, 250, 24, 0.5) solid;
+    margin: 100px;
+    border-radius:100px;
+    box-shadow: rgba(220, 250, 24, 0.22) 0px 14px 28px, rgba(220, 250, 24, 0.22) 0px 10px 10px;
 }
 
 .st-ae{
@@ -19,6 +24,7 @@
     border: #095742 solid;
     text-align: center;
     border-radius: 10px;
+    box-shadow: rgba(9, 87, 66, 0.22) 0px 14px 28px, rgba(9, 87, 66, 0.22) 0px 10px 10px;
 }
 
 .st-emotion-cache-zt5igj{
