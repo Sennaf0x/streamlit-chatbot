@@ -11,3 +11,17 @@
 # APIKEY OPENAI
 - Deverá ser inserido a APIKEY da openai após realizar a clonagem do projeto.
 - Nossa APIKEY foi inserida no PATH das variáveis de ambiente conforme ensina os documentos do OpenAI https://platform.openai.com/docs/quickstart?context=python 
+
+# Iniciando o aplicativo
+
+- cd/streamlit-chatbot/etech-chatbot\
+
+- Ative o virtualenv:
+    venv\Scripts\activate
+
+- No venv instale as seguintes ferramentas:
+    pip install --upgrade openai
+    pip install streamlit
+
+- Abra o streamlit no terminal:
+    streamlit run main.py
