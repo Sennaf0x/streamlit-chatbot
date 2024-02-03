@@ -4,6 +4,8 @@ from openai import OpenAI
 with open("style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
+
+
 client = OpenAI()
 
 def ask_openai(mensagem):
@@ -41,7 +43,7 @@ def ask_openai(mensagem):
             
 with st.container():
     imagem = "https://assets-global.website-files.com/620ba2c48ef2a94e3ba42435/65317f284897f296c6b25e12_Ativo%2016%404x.png"
-    st.write(f"<h1 class='titulo'><img src='{imagem}' width= '122' > ChatBot Etech</h1></br><span class='letra'>Digite aqui sua dúvida:</span>",unsafe_allow_html=True)
+    st.write(f"<div class='titulo'><img src='{imagem}' width= '122' ><h1 class='center'>ChatBot da Etech</h1></div></br><span class='letra'>Digite aqui sua dúvida:</span>",unsafe_allow_html=True)
     mensagem = st.text_input("")
     resposta = ask_openai(mensagem)
     st.write("<div class='lateral'></div>", unsafe_allow_html=True)
