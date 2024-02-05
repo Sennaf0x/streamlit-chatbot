@@ -1,8 +1,13 @@
 import streamlit as st
 from openai import OpenAI
 
-with open("style.css") as f:
+
+with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+#css = "<link rel='stylesheet' type='text/css' href='style.css' media='screen' />"
+
+#st.markdown(css, unsafe_allow_html=True)
 
 client = OpenAI()
 
@@ -51,6 +56,6 @@ with st.container():
 with st.container():
     bitNelson = "https://i.ibb.co/VDPwztJ/bit-nelson-2-rbg.png"
     #imagem = st.image('static/img/bit-nelson-2-rbg.png')
-    st.write(f"<div class='flex'><a href='https://imgbb.com/'><img src='{bitNelson}' border='0' width='80'></a><div class='response'><p><b class='tamanho'>Bit Nelson:</b>  {resposta}</p></div></div>", unsafe_allow_html=True)
+    st.write(f"<div class='flex'><a href='https://www.fpf-etech.com/'><img src='{bitNelson}' border='0' width='80'></a><div class='response'><p><b class='tamanho'>Bit Nelson:</b>  {resposta}</p></div></div>", unsafe_allow_html=True)
     st.write("<div class='lateral'></div>", unsafe_allow_html=True)
     
