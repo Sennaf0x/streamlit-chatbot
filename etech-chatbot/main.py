@@ -8,6 +8,8 @@ from openai import OpenAI
 #print(css)
 #st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
 
+st.markdown(f"<link type='text/css' rel='stylesheet' href='style.css' />", unsafe_allow_html=True)
+
 #with open('style.css') as f:
 #    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
