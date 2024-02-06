@@ -1,14 +1,8 @@
 import streamlit as st
-import requests
 from openai import OpenAI
 
-#url = "https://github.com/Sennaf0x/streamlit-chatbot/blob/main/etech-chatbot/style.css"
-#sresponse = requests.get(url)
-#css = response.text
-#print(css)
-#st.markdown(f"<style>{css}</style>", unsafe_allow_html=True)
+st.markdown("<style> .main{background-color: #095742;} .block-container{border: rgba(220, 250, 24, 0.5) solid margin: 100px;border-radius: 100px;box-shadow: rgba(220, 250, 24, 0.22) 0px 14px 28px, rgba(220, 250, 24, 0.22) 0px 10px 10px;} .st-ae{ width:100%;} .titulo{ background-color: rgba(220, 250, 24); width: 100%; padding: 0 10px; display: flex; align-content: space-between; color: white; border: #095742 solid; border-radius: 10px; box-shadow: rgba(220, 250, 24, 0.22) 0px 1px 2px, rgba(220, 250, 24, 0.22) 0px 1px 1px;} .letra{ color: white;} .st-emotion-cache-zt5igj{width:100%;} .lateral{ background-color: rgba(220, 250, 24); align-self: flex-end; width: 100%; margin: 30px 0px; padding: 2px; color: black; text-align: center; border-radius: 10px; border: 3px solid #095742; box-shadow: rgba(220, 250, 24, 0.22) 0px 1px 2px, rgba(220, 250, 24, 0.22) 0px 1px 1px;} .center{ text-align: center; margin:0 50px;} .mensagem { background-color: rgba(33,37,41); box-shadow: rgba(220, 250, 24, 0.5)  4px 4px; color: white; align-self: flex-end; width: 100%; padding: 30px; margin:10px; border-radius: 100px;} img{ align-items: center; align-self: center;} .response { background-color: rgba(220, 250, 24); box-shadow: rgba(33,37,41, 0.5) -4px 4px; color: black; text-align: justify; width: 100%; padding: 40px; margin:20px; border-radius: 100px;} .flex{display: flex; width:100%;} .tamanho{font-size: 20px;} @media (max-width: 600px){ .titulo{ font-size: 8px; width:100%; } img{ width:50px;} .center{ text-align: center; margin: 0 50px; font-size: 2em;} .block-container{ margin: 50px;}}</style>", unsafe_allow_html=True)
 
-st.markdown(f"<link type='text/css' rel='stylesheet' href='style.css' />", unsafe_allow_html=True)
 
 #with open('style.css') as f:
 #    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
